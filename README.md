@@ -1,8 +1,17 @@
+# MERN basics
+
+The backend is connected to [MongoDB Atlas](https://cloud.mongodb.com/). Connections should be specified inside `.env` file.
+Local IP address should be whitelisted in MongoDB Atlas.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the backend localy, navigate to `/backend` folder, then run:
+
+### `nodemon  server`
+
+To run the frontend, navigate to project directory, then run:
 
 ### `npm start`
 
@@ -66,3 +75,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Based on this [MERN tutorial](https://www.youtube.com/watch?v=7CqJlxBYj-M).
