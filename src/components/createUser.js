@@ -6,9 +6,9 @@ class CreateUser extends Component {
         username: ""
     }
 
-    onChangeUsername = e => {
+    onChange = e => {
         this.setState({
-            username: e.target.value
+            [e.target.name]: e.target.value
         });
     }
     
@@ -44,8 +44,9 @@ class CreateUser extends Component {
                     <input  type="text"
                         required
                         className="form-control"
+                        name="username"
                         value={this.state.username}
-                        onChange={this.onChangeUsername}
+                        onChange={this.onChange}
                         />
                 </div>
                 <div className="form-group">
