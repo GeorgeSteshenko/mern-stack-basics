@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-To run the backend separatly run:
+To run the backend separatly:
 
 ### `npm run backend-install`
 
@@ -15,11 +15,11 @@ Then:
 
 ### `npm run backend`
 
-To run the frontend run:
+To run the frontend:
 
 ### `npm start`
 
-To run both backend and frontend run:
+To run both backend and frontend:
 
 ### `npm run dev`
 
