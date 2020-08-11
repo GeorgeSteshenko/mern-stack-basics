@@ -7,13 +7,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-To run the backend localy, navigate to `/backend` folder, then run:
+To run the backend separatly run:
 
-### `nodemon  server`
+### `npm run backend-install`
 
-To run the frontend, navigate to project directory, then run:
+Then:
+
+### `npm run backend`
+
+To run the frontend run:
 
 ### `npm start`
+
+To run both backend and frontend run:
+
+### `npm run dev`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
